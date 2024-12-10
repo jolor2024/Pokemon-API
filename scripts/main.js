@@ -386,22 +386,22 @@ async function battle() {
 
 function playAttackAnimation(moveType, playerDefender) {
     const attackAnimations = {
-        fire: "../animation/fire.json", 
-        water: "../animation/water.json", 
-        grass: "../animation/grass.json", 
-        electric: "../animation/thunder.json", 
-        ice: "../animation/snowfall.json",
-        bug: "../animation/bug.json", 
-        dragon: "../animation/dragon.json", 
-        psychic: "../animation/ghost.json",
-        dark: "../animation/dark.json", 
-        fighting: "../animation/hit.json",
-        ground: "../animation/hit.json",
-        rock: "../animation/hit.json",
-        poison: "../animation/bug.json", 
-        ghost: "../animation/ghost.json", 
-        normal: "../animation/hit.json", 
-        flying: "../animation/flying.json",
+        fire: "./animation/fire.json", 
+        water: "./animation/water.json", 
+        grass: "./animation/grass.json", 
+        electric: "./animation/thunder.json", 
+        ice: "./animation/snowfall.json",
+        bug: "./animation/bug.json", 
+        dragon: "./animation/dragon.json", 
+        psychic: "./animation/ghost.json",
+        dark: "./animation/dark.json", 
+        fighting: "./animation/hit.json",
+        ground: "./animation/hit.json",
+        rock: "./animation/hit.json",
+        poison: "./animation/bug.json", 
+        ghost: "./animation/ghost.json", 
+        normal: "./animation/hit.json", 
+        flying: "./animation/flying.json",
     };
 
     let elementName;

@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <section id="gameScreen">
+        <div id="playersContainer">
+            <div id="player1Screen" class="playerScreen">
+                <h1 id="pokemonName1">Onyx</h1>
+                <div class="hp">
+                    <div id="hpRemaining1" class="hpRemaining"></div>
+                </div>
+                <div class="spriteBattleContainer">
+                    <canvas id="canvas1"></canvas>
+                    <img src="" alt="" id="pokemon1Sprite">
+                </div>
+
+                <div id="player1menu" class="battlemenu">
+                    <button id="move1p1"></button>
+                    <button id="move2p1"></button>
+                    <button id="move3p1"></button>
+                    <button id="move4p1"></button>
+                </div>
+                
+            </div>
+            <div id="player2Screen" class="playerScreen">
+                <h1 id="pokemonName2">Pikachu</h1>
+                <div class="hp">
+                    <div id="hpRemaining2" class="hpRemaining"></div>
+                </div>
+                <div class="spriteBattleContainer">
+                    <canvas id="canvas2"></canvas>
+                    <img src="" alt="" id="pokemon2Sprite">
+                </div>
+
+                <div id="player2menu" class="battlemenu">
+                    <button id="move1p2"></button>
+                    <button id="move2p2"></button>
+                    <button id="move3p2"></button>
+                    <button id="move4p2"></button>
+                </div>
+            </div>
+        </div>
+        <div id="textinfo"></div>
+    </section>
+    
+    <section id="pokemonList">
+        <div id="getPokemonBtns">
+            <label for="pet-select">Generation:</label>
+
+            <select name="generation" id="generation-select">
+            <option value="">--Välj alternativ--</option>
+            <option value="gen1">Generation 1</option>
+            <option value="gen2">Generation 2</option>
+            <option value="gen3">Generation 3</option>
+            </select>
+        </div>
+        <h1 id="titleinfo"></h1>
+        <div id="pokedexTable"></div>
+    </section>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

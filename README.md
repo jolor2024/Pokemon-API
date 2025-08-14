@@ -1,3 +1,1 @@
-# API
-API project 
-project info
+# Pokemon Javascript
